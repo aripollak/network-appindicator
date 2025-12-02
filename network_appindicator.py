@@ -9,13 +9,8 @@ try:
     gi.require_version("AyatanaAppIndicator3", "0.1")
     from gi.repository import AyatanaAppIndicator3 as AppIndicator
 except (ValueError, ImportError):
-    try:
-        gi.require_version("AppIndicator3", "0.1")
-        from gi.repository import AppIndicator3 as AppIndicator
-    except (ValueError, ImportError):
-        print("Error: AppIndicator library not found.")
-        print("Please install 'gir1.2-appindicator3-0.1' or 'libappindicator-gtk3'")
-        exit(1)
+    print("Please install 'gir1.2-ayatanaappindicator3-0.1'")
+    raise
 
 from gi.repository import Gtk, GLib
 
