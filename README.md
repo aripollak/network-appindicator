@@ -7,8 +7,8 @@ This Python script utilizes the AppIndicator protocol, which is the standard mec
 * **KDE Plasma**: Supports AppIndicators through its built-in System Tray widget.
 * **Cinnamon, MATE, XFCE**: Generally works well, as these DEs usually include support for libappindicator or a compatible implementation.
 
-![Active Screenshot](active.png)
-![Inactive Screenshot](inactive.png)
+![Active Screenshot](docs/active.png)
+![Inactive Screenshot](docs/inactive.png)
 
 ## Installation
 
