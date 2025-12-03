@@ -1,6 +1,6 @@
 # Network AppIndicator
 
-A lightweight Python script for Linux desktop environments that monitors the status of your VPN connection (or any particular network interface, `tun0` by default) and displaying a persistent status icon in the system tray.
+A lightweight Python script for Linux desktop environments that monitors the status of your VPN connection (or any particular network interface, `tun0` by default) and displays a persistent status icon in the system tray.
 
 This Python script utilizes the AppIndicator protocol, which is the standard mechanism for creating system tray icons on modern Linux desktops. The script is expected to work well under the following desktop environments (DEs), sometimes requiring a corresponding extension to be active:
 * **GNOME Shell**: Works reliably when the **KStatusNotifierItem/AppIndicator Support** extension is installed and enabled.
